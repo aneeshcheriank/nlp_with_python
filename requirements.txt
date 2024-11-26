@@ -1,0 +1,7 @@
+mlflow >= 2.7.0
+fire
+ipython
+textblob
+wikipedia
+pytest
+pytest-cov
