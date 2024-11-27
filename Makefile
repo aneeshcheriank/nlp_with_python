@@ -4,7 +4,8 @@ install:
 	python -m textblob.download_corpora
 
 test:
-	python -m pytest -vv test_*.py
+	python -m pytest -vv --cov=nlplogic test_corenlp.py
+	# --cov specify the root folder for modules
 
 format:
 	black *.py
