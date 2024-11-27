@@ -5,3 +5,5 @@ textblob
 wikipedia
 pytest
 pytest-cov
+black
+pylint

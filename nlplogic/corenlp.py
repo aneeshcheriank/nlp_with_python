@@ -9,10 +9,10 @@ def search_wikipedia(name):
     print(f'searching for {name}')
     return wikipedia.search(name)
 
-def summarize_wikipedia(name, lenght=2):
+def summarize_wikipedia(name, length=2):
     """Summarize wikipedia"""
     print(f'summary for name {name}')
-    return wikipedia.summary(name, sentences=2)
+    return wikipedia.summary(name, sentences=length)
 
 def get_text_blob(text):
     blob = TextBlob(text)

@@ -8,8 +8,10 @@ test:
 
 format:
 	black *.py
+	black ./nlplogic/*.py
 
 lint:
 	pylint --disable=R,C *.py
+	pylint --disable=R,C ./nlplogic/*.py
 
 all: install lint test
