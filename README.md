@@ -20,5 +20,26 @@
 |[Developing Event-Driven Serverless](https://docs.google.com/presentation/d/1lAa88cZrYjrC1cnj-rwgiintsK9HO16R/edit#slide=id.p1)|Reading|15-20|This powerpoint presentation covers how AWS thinks about event driven services on AWS|
 |[Python Fire CLI Framework](https://github.com/google/python-fire)|Reading|15-20|Python Fire is a versatile library that automatically generates command line interfaces (CLIs) from any Python object. It simplifies the creation of CLIs in Python, aids in developing and debugging code, and facilitates exploring and converting existing code into a CLI. Additionally, Python Fire eases the transition between Bash and Python and enhances Python REPL usage by preloading necessary modules and variables. As an action item, students are encouraged to explore the official examples to gain a deeper understanding of Python Fire's capabilities and potential applications.|
 
+## Lesson reflections
 
+- <b>Summary of Lesson</b> This lesson covered building Python functions from scratch, leveraging Python Fire to create CLIs, deploying serverless cloud functions, and using CI/CD to test Azure functions with GitHub Actions.
 
+### Top 3 Key Points
+
+- Python functions encapsulate reusable logic
+- Python Fire auto-generates CLIs
+- Cloud functions enable event-driven scale
+
+### 5 Reflection Questions
+- What types of logic lend themselves well to Python functions?
+- How could Python Fire improve your existing scripts?
+- What triggers might you use to execute serverless functions?
+- Why build functions locally before cloud deployment?
+- How does CI/CD apply for functions and microservices?
+
+### 5 Challenge Exercises
+- Package a script into a PyPi module with Python functions
+- Refactor a script to add a Python Fire CLI
+- Create functions responding to cloud events like S3 uploads
+- Set up GitHub Actions testing for your Azure Functions
+- Research best practices for breaking monoliths into functions
