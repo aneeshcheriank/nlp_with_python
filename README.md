@@ -6,6 +6,8 @@
 
 ## Test fucntion
 - mocking Web APIs with unitest.mock.patch
+- coverage report for library
+    - point --cov to the library root folder
 
 
 
