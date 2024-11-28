@@ -5,14 +5,12 @@ install:
 
 test:
 	python -m pytest -vv --cov=nlplogic test_corenlp.py
-	# --cov specify the root folder for modules
+	# --cov specify the root folder for 
 
 format:
-	black *.py
-	black ./nlplogic/*.py
+	black *.py ./nlplogic/*.py
 
 lint:
-	pylint --disable=R,C *.py
-	pylint --disable=R,C ./nlplogic/*.py
+	pylint --disable=R,C *.py nlplogic/*.py
 
 all: install lint test
